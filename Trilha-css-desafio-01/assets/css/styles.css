@@ -1,0 +1,110 @@
+    body {
+     background-color: rgba(0, 0, 0, 0.89);
+    }
+    .banner-content {
+        padding-bottom: 20px;
+        text-align: center;
+        }
+    img {
+       margin: auto;
+       padding: auto;
+       filter: drop-shadow(3px 2px 2px rgba(175, 150, 150, 0.295));
+    }
+    h1 {
+        font-size: large bold;
+        color: rgb(0, 119, 255);
+        text-shadow: 3px 3px 3px #7ca0a0f3;
+    }
+    p {
+        color: white;
+        text-align: center;
+        }
+    button {
+        border-color: #2b4357;
+        color: rgb(0, 140, 255);
+        box-shadow: 15px;
+        background-color: rgba(0, 0, 0, 0.329);
+    } 
+    span {
+        margin: 5px;
+        color: blue;
+    }
+    .modules-list {
+        margin-bottom: 5px wheat;
+        filter: drop-shadow(3px 2px 2px rgba(22, 20, 20, 0.295));
+    }
+    .module {
+        width: 400px;
+        height: 20px;
+        margin-left: 300px;
+        border-radius: 10px;
+        padding: auto;
+        font-stretch: condensed;
+        align-self: center;
+        border: solid 2px;
+        border-color: #2b4357;
+        color: white;
+        box-shadow: 20px;
+        background-color: rgba(0, 0, 0, 0.89);
+        margin-bottom: solid 1px wheat;
+        
+    }
+    #mundo {
+        text-align: left;
+        font-weight: 900;
+        font-size: 30px;
+        text-shadow: 3px 3px 3px #f7fcfcf3;
+        margin-top: 0px;
+        position: absolute;
+        z-index: 1;
+        top: 758px;
+        left: 50px;
+    }
+    h2 {
+        text-align: center;
+        color: rgba(0, 119, 255, 0.9);
+        text-shadow: 3px 3px 3px #7ca0a0f3;
+    }
+    #course-content {
+        background-color: rgba(27, 19, 19, 0.89);
+        text-align: center;
+        padding: 15px;
+    }
+    #transform-world {
+        height: 300px;
+        background-attachment: fixed;
+        background-size: cover;
+        background-image: url('../images/woman-code.png');
+        background: linear-gradient (63deg, #999 30%);
+        -webkit-background-clip: border-box;
+        filter: drop-shadow(1px 2px 1px rgba(0, 129, 129 59%));
+        
+    }
+    #professional-challenges {
+        text-align: center;
+        width: 970px;
+      }
+      
+      #professional-challenges img {
+        background-attachment: fixed;
+        margin: 29px 0;
+        display: block;
+        margin: auto;
+      }
+   
+    header {
+        border-bottom: solid 2px blue;
+    }
+    section {
+        border-bottom: solid 2px blue;
+    }
+    footer {
+        border-top: 1px solid blue;
+        
+    }
+    .dio-logo {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
