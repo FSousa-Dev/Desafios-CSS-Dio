@@ -1,0 +1,160 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Black.ttf);
+}
+
+    
+
+header {
+    width: 988px;
+    height: 54px;
+    justify-content: space-between;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.image {
+    width: 157px;
+    height: 90px;
+    margin-top: 4px;
+    padding: 3px;
+    
+}
+.itens {
+    padding: 5px;
+    flex-shrink: 80;
+}
+.layout {
+    width: 600px;
+    height: 23px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23.44px;
+    color: black;
+    text-align: left;
+    flex-shrink: 8; 
+}
+main {
+    display: flex;
+    
+}
+span {
+    width: 391px;
+    height: 16px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.41px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.main {
+    width: 952px;
+    height: 746px;
+    padding-right: 16px;
+    top: 84px;
+    left: 15px;
+    gap: 16px;
+    opacity: 0px;
+    
+}
+
+.actions {
+    display: flex;
+    max-width: 642px;
+    
+}
+
+
+.midea {
+    width: 182px;
+    height: 94px;
+    margin-top: 4px;
+    
+    
+}
+.mundo {
+    width: 480px;
+    height: 64px;
+    flex-shrink: 3;
+    padding: 6px;
+    
+}
+#texto {
+    margin-top: 1px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+    color: #000000;
+    text-align: top;
+    flex-shrink: 8;
+    line-height: 14.06px;
+}    
+#text-01 {
+    margin-top: 2px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    flex-basis: content;
+    color: #515151;
+    flex-shrink: 1;
+}
+
+.search {
+    width: 188px;
+    height: 27px;
+    padding-left: 8px;
+    border-color: #CCCCCC;
+}
+.search-br {
+    align-items: center;
+    display: inline-flex;
+    
+}
+.search-lp {
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+.search-bar {
+    width: 130px;
+    height: 34px;
+    gap: 24px;
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-between;
+    
+}
+.section {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    gap: 6px;
+}
+.sidebar {
+    width: 690px;
+    height: 850px;
+    top: 84px;
+    left: 1052px;
+    gap: 16px;
+    opacity: 0px;
+}
+.pedal {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
