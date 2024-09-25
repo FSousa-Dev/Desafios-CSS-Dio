@@ -1,0 +1,120 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Black.ttf);
+}
+
+ body {
+    display: grid;
+    height: 100vh;
+    gap: 10px;
+    grid-template-columns: 218px 5fr;
+    grid-template-rows: 56px 760px;
+    grid-template-areas: "header header" "sidebar main";
+ }
+ .div {
+    border-radius: 50%;
+ }
+ .fonte {
+    font: Roboto;
+    font-weight: 400;
+    size: 14px;
+    line-height: 16.41px;
+ }
+ .span {
+    display: flex;
+    width: 249px;
+    height: 74px;
+ }
+.header {
+    width: 1440px;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    color: #FFFFFF;
+    grid-area: header;
+    align-items: center;
+}
+.icones {
+    display: flex;
+    height: 24px;
+    margin-top: 15px;
+    gap: 16px;
+    justify-items: center;
+    align-items: center;
+}
+.paragrafo {
+    font: Roboto;
+    font-weight: 400;
+    size: 12px;
+    line-height: 14.06px;
+    margin: 2px;
+    color: #515151;
+}
+.placeholder {
+    gap: 0;
+    align-items: center;
+}
+.submit {
+  align-items: center;
+}
+.search-bar {
+    width: 180px;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+}    
+.search-br {
+    display: flex;
+    margin: opx;
+    padding: 0;
+   justify-content: center;
+   align-content: center;
+}
+.sidebar {
+    width: 180px;
+    height: 914px;
+    padding: 24px;
+    color: #FFFFFF;
+    grid-area: sidebar;
+}
+.Typography-b {
+    font: Roboto;
+    font-weight: 700;
+    size: 14px;
+    line-height: 16,41px;
+    color: #000000;
+}
+.Typography {
+    font: Roboto;
+    font-weight: 700;
+    size: 14px;
+    line-height: 16,41px;
+    color: #515151;
+}
+.Typography-01 {
+    font: Roboto;
+    font-weight: 600;
+    size: 14px;
+    line-height: 16,41px;
+    margin: 0;
+    color: #000000;
+}
+.main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 220px);
+    gap: 10px 10px;
+    color: #FFFFFF;
+    grid-area: main;
+}
+.videos {
+    width: 280px;
+    height: 260px;
+    border-radius: 4px;
+    padding: 16px;
+    gap: 16px;
+    align-self: start;
+    margin: 0;
+}
+
